@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.ListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="641dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/list_activity_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:text="Quizz: 1 à 100"
+                android:textSize="15sp"
+                app:backgroundTint="#1B0606" />
+
+            <Button
+                android:id="@+id/list_activity_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:text="Quizz 101 à 1000"
+                android:textSize="15sp"
+                app:backgroundTint="#190C0C" />
+
+            <Button
+                android:id="@+id/list_activity_button3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:text="Quizz 1001 à ..."
+                android:textSize="15sp"
+                app:backgroundTint="#130909" />
+
+            <Button
+                android:id="@+id/list_activity_button_pref"
+                android:layout_width="wrap_content"
+                android:layout_height="7dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:text="Préférence"
+                android:textSize="20sp"
+                app:backgroundTint="#190A0A" />
+
+            <Button
+                android:id="@+id/list_activity_button_details"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:textSize="20sp"
+                android:text="Details"
+                app:backgroundTint="#120404" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
